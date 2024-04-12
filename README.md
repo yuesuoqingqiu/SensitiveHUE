@@ -6,11 +6,11 @@ In this paper, we aim to enhance the sensitivity towards normal patterns through
 ![](./figures/Framework.jpg)
 
 # Get Started
-1. Install Python 3.11 and the required packages in `requirements.txt'.
+1. Install Python 3.11 and the required packages in `requirements.txt`.
 2. Download the datasets. We have put the processed versions (downsample and convert to numpy format) of SWaT in the `data` folder. For the complete versions ('.csv') of SWaT and WADI, you can apply for them at [iTrust](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/). SMD and MSL are available at [TranAD](https://github.com/imperial-qore/TranAD/tree/main/data).
 3. Train or evaluate the model. For example, to train the model on SWaT:
 ```
-python main.py --config_path ./config/star.yaml --dataset SWaT
+python main.py --config_path ./config/star.yaml --data_name SWaT
 ```
 
 **Note**:
@@ -43,5 +43,5 @@ Dependency modeling is critical for anomaly detection in MTS, like spatial corre
 # Disruption Strategy
 If you are interested in our disruption strategy in Table 1 and 2, please refer to the folder `rec_strategy`. You can run the following command to get the results of compression on SWaT dataset:
 ```
-python main_rec_strategy.py --config_path ./config/star_compression.yaml --mask_mode none --dataset SWaT
+python main_rec_strategy.py --config_path ./config/star_compression.yaml --mask_mode none --data_name SWaT
 ```
