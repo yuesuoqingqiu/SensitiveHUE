@@ -1,0 +1,65 @@
+stride: 1
+head_num: 4
+max_epoch: 30
+lr: 0.001
+
+SWaT:
+  batch_size: 64
+  encode_layer_num: 1
+  ignore_dims: [10, 28]
+  random_val: true
+  f_in: 51
+  step_num_in: 24
+  val_ratio: 0.2
+  alpha: 1
+  dim_model: 128
+  dim_hidden_fc: 256
+  select_pos: mid
+  data_dir: data/SWaT
+  model_save_dir: sensitive_hue/model_states/SWaT
+
+WADI:
+  batch_size: 64
+  encode_layer_num: 2
+  f_in: 123
+  random_val: true
+  step_num_in: 24
+  val_ratio: 0.1
+  alpha: 0.75
+  dim_model: 256
+  dim_hidden_fc: 512
+  select_pos: tail
+  data_dir: data/WADI
+  model_save_dir: sensitive_hue/model_states/WADI
+
+SMD:
+  range: [1, 28]
+  ignore_dims: {3: [4], 4: [4], 5: [3], 11: [3], 24: [29], 27: [9, 29]}
+  encode_layer_num: 2
+  f_in: 38
+  step_num_in: 48
+  val_ratio: 0.2
+  random_val: true
+  alpha: 1
+  dim_model: 128
+  dim_hidden_fc: 256
+  select_pos: mid
+  data_dir: data
+  model_save_dir: sensitive_hue/model_states/SMD
+
+MSL:
+  range: [1, 27]
+  ignore_dims: {8: [31, 33], 3: [5]}
+  ignore_entities: [20]
+  batch_size: 64
+  encode_layer_num: 2
+  f_in: 55
+  step_num_in: 48
+  val_ratio: 0.2
+  random_val: true
+  alpha: 1
+  dim_model: 128
+  dim_hidden_fc: 256
+  select_pos: mid
+  data_dir: data
+  model_save_dir: sensitive_hue/model_states/MSL

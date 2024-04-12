@@ -1,0 +1,33 @@
+Epoch 01/30	Train:	rec:0.419026	prob:-0.884211	Valid:	rec:0.279670	prob:-3.209849
+Epoch 02/30	Train:	rec:0.245614	prob:-1.870398	Valid:	rec:0.234387	prob:-3.226261
+Epoch 03/30	Train:	rec:0.218544	prob:-2.291895	Valid:	rec:0.212347	prob:-4.096953
+Epoch 04/30	Train:	rec:0.224701	prob:-2.403447	Valid:	rec:0.207119	prob:-4.471833
+Epoch 05/30	Train:	rec:0.226201	prob:-2.496585	Valid:	rec:0.196948	prob:-4.824266
+Epoch 06/30	Train:	rec:0.174809	prob:-3.214793	Valid:	rec:0.168838	prob:-4.325176
+Epoch 07/30	Train:	rec:0.164695	prob:-3.269335	Valid:	rec:0.163612	prob:-5.558748
+Epoch 08/30	Train:	rec:0.159015	prob:-3.389311	Valid:	rec:0.157114	prob:-5.209525
+Epoch 09/30	Train:	rec:0.155256	prob:-3.508107	Valid:	rec:0.164624	prob:-5.162579
+Epoch 10/30	Train:	rec:0.149272	prob:-3.620346	Valid:	rec:0.153057	prob:-5.579936
+Epoch 11/30	Train:	rec:0.143802	prob:-3.970788	Valid:	rec:0.147514	prob:-5.049062
+Epoch 12/30	Train:	rec:0.142859	prob:-4.018519	Valid:	rec:0.147118	prob:-5.753752
+Epoch 13/30	Train:	rec:0.141042	prob:-4.120951	Valid:	rec:0.147395	prob:-6.078070
+Epoch 14/30	Train:	rec:0.140583	prob:-4.134702	Valid:	rec:0.160797	prob:-4.868968
+Epoch 15/30	Train:	rec:0.139302	prob:-4.133804	Valid:	rec:0.143189	prob:-5.512435
+Epoch 16/30	Train:	rec:0.137095	prob:-4.446672	Valid:	rec:0.143885	prob:-5.645093
+Epoch 17/30	Train:	rec:0.136386	prob:-4.542550	Valid:	rec:0.142284	prob:-6.279059
+Epoch 18/30	Train:	rec:0.136015	prob:-4.590817	Valid:	rec:0.142568	prob:-5.827912
+Epoch 19/30	Train:	rec:0.135678	prob:-4.525833	Valid:	rec:0.142317	prob:-6.183572
+Epoch 20/30	Train:	rec:0.135504	prob:-4.585107	Valid:	rec:0.140620	prob:-5.792838
+Epoch 21/30	Train:	rec:0.134418	prob:-4.717682	Valid:	rec:0.140526	prob:-5.371491
+Epoch 22/30	Train:	rec:0.133889	prob:-4.854862	Valid:	rec:0.141474	prob:-6.499928
+Epoch 23/30	Train:	rec:0.133711	prob:-4.887715	Valid:	rec:0.140442	prob:-6.142234
+Epoch 24/30	Train:	rec:0.133577	prob:-4.920628	Valid:	rec:0.140204	prob:-4.047799
+Epoch 25/30	Train:	rec:0.133494	prob:-4.956677	Valid:	rec:0.141082	prob:-5.882612
+Epoch 26/30	Train:	rec:0.133090	prob:-5.142259	Valid:	rec:0.140170	prob:-5.690529
+Epoch 27/30	Train:	rec:0.132900	prob:-5.117131	Valid:	rec:0.139341	prob:-4.358262
+Epoch 28/30	Train:	rec:0.132743	prob:-5.180889	Valid:	rec:0.139707	prob:-5.033967
+Epoch 29/30	Train:	rec:0.132594	prob:-5.180717	Valid:	rec:0.139750	prob:-6.089704
+Epoch 30/30	Train:	rec:0.132617	prob:-5.205988	Valid:	rec:0.139216	prob:-6.012259
+Training is over...
+Test	Before PA	precision:	0.9697	recall:	0.8502	f1:	0.9060	
+Test	After PA	precision:	0.9730	recall:	0.9598	f1:	0.9663	

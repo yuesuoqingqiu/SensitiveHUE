@@ -1,0 +1,32 @@
+stride: 1
+head_num: 4
+max_epoch: 30
+lr: 0.0005
+
+mask_ratio: 0.2
+mask_val: 0.
+
+SWaT:
+  batch_size: 256
+  encode_layer_num: 1
+  ignore_dims: [10, 28]
+  random_val: true
+  f_in: 51
+  step_num_in: 24
+  val_ratio: 0.2
+  dim_model: 32
+  dim_hidden_fc: 64
+  data_dir: data/SWaT
+  model_save_dir: rec_strategy/model_states/SWaT
+
+WADI:
+  batch_size: 256
+  encode_layer_num: 2
+  f_in: 123
+  random_val: true
+  step_num_in: 24
+  val_ratio: 0.1
+  dim_model: 64
+  dim_hidden_fc: 128
+  data_dir: data/WADI
+  model_save_dir: rec_strategy/model_states/WADI
