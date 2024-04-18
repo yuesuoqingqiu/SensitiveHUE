@@ -46,7 +46,7 @@ Dependency modeling is critical for anomaly detection in MTS, like spatial corre
 
 Window size slightly affects the performance of our framework. When the window size is too small or too large, i.e., too little or too much information is preserved, it is unfavorable to learn the complex dependencies in MTS.
 
-<img src="./figures/ablation.jpg" alt="ablation" style="zoom:40%;"/>
+<img src="./figures/ablation.jpg" alt="ablation" style="zoom:80%;"/>
 
 # Disruption Strategy
 If you are interested in our disruption strategy in Table 1 and 2, please refer to the folder `rec_strategy`. You can run the following command to get the results of compression on SWaT dataset:
